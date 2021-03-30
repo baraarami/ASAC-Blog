@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+    <title>ASAC-Blog</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="asac">ASAC</li>
+                <li id="nav">Home</li>
+                <li id="nav">About</li>
+                <li id="nav">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="article">
+            <form id="form">
+             <label for="authar NAME">Auther Name</label>
+             <input type="text" name="autherName" id="autherName">
+             <br>
+             <br>
+             <label for="article Title">Article Title :</label>
+             <input type="text" name="articletitle" id="articletitle">
+             <br>
+             <br>
+             <label for="subject">Subject</label>
+             <select name="subject" id="subject">
+                 <option value="Coding">Coding</option>
+                 <option value="3D printing">3D printing</option>
+                 <option value="Cyber security">Cyber security</option>
+                 <option value="AI">AI</option>
+             </select>
+<br><br>
+             <label for="content">Content</label><br><br>
+             <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+              <br>
+              <br>
+              <section id="dayM">
+             <label for="day">day</label>
+             <input type="number" name="day" id="day">
+             <label for="month">month</label>
+             <input type="number" name="month" id="month">
+             <label for="year">year</label>
+             <input type="number" name="year" id="year">
+            </section>
+<br><br>
+            <input type="submit" id="submit">
+
+            <div>
+                <textarea name="output" id="output" cols="30" rows="10"></textarea>
+            </div>
+            </form>
+        </article>
+    </main><br><br><br><br>
+    <footer>
+        <p id="footer">&copy;All right reseved ASAC 2021 </p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
